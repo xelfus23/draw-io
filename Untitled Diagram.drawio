@@ -1,9 +1,111 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36">
-  <diagram name="Page-1" id="06zovnO6yYjhrU50Y6oB">
-    <mxGraphModel dx="1022" dy="564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" pages="2">
+  <diagram name="Login" id="06zovnO6yYjhrU50Y6oB">
+    <mxGraphModel dx="573" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-4" edge="1" parent="1" source="iIISWFgfRcdaxgRB2DTa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iIISWFgfRcdaxgRB2DTa-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Insert email and password" vertex="1">
+          <mxGeometry height="60" width="120" x="433" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Admin Dashboard Login" vertex="1">
+          <mxGeometry height="30" width="165" x="594" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-8" edge="1" parent="1" source="iIISWFgfRcdaxgRB2DTa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iIISWFgfRcdaxgRB2DTa-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-3" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="authenticate / validate information" vertex="1">
+          <mxGeometry height="60" width="120" x="633" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-10" edge="1" parent="1" source="iIISWFgfRcdaxgRB2DTa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iIISWFgfRcdaxgRB2DTa-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-14" connectable="0" parent="iIISWFgfRcdaxgRB2DTa-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1778" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-12" edge="1" parent="1" source="iIISWFgfRcdaxgRB2DTa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iIISWFgfRcdaxgRB2DTa-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-13" connectable="0" parent="iIISWFgfRcdaxgRB2DTa-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1556" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="authenticated?" vertex="1">
+          <mxGeometry height="80" width="125" x="853" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-9" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Reject" vertex="1">
+          <mxGeometry height="60" width="120" x="855.5" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="iIISWFgfRcdaxgRB2DTa-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Display admin dashboard" vertex="1">
+          <mxGeometry height="60" width="120" x="855.5" y="424" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SO3hxvlBUc29R3EYJ6Dz" name="Account Management">
+    <mxGraphModel dx="1136" dy="627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lHX-Ra-pE7LCdVMAUohD-4" edge="1" parent="1" source="lHX-Ra-pE7LCdVMAUohD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lHX-Ra-pE7LCdVMAUohD-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHX-Ra-pE7LCdVMAUohD-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Fill up email, password, and role" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lHX-Ra-pE7LCdVMAUohD-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Account Registration&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="320" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lHX-Ra-pE7LCdVMAUohD-6" edge="1" parent="1" source="lHX-Ra-pE7LCdVMAUohD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lHX-Ra-pE7LCdVMAUohD-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHX-Ra-pE7LCdVMAUohD-3" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="validate user input" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lHX-Ra-pE7LCdVMAUohD-5" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="New user account" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-1" edge="1" parent="1" source="jalRDOBZp7MGyKrqq0av-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jalRDOBZp7MGyKrqq0av-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Select member ID" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Account Deletion&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-4" edge="1" parent="1" source="jalRDOBZp7MGyKrqq0av-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jalRDOBZp7MGyKrqq0av-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-5" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Validate selected ID if exists" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Delete member with selected member ID" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-7" edge="1" parent="1" source="jalRDOBZp7MGyKrqq0av-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jalRDOBZp7MGyKrqq0av-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Fill up update email, password, and role" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Account Updates&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="320" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-10" edge="1" parent="1" source="jalRDOBZp7MGyKrqq0av-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jalRDOBZp7MGyKrqq0av-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="validate user input based on updates" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="jalRDOBZp7MGyKrqq0av-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Updated user account" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="698" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
