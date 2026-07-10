@@ -189,7 +189,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="B5cuEFew7H10D65G1TVE" name="Page-3">
-    <mxGraphModel dx="1476" dy="994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1602" dy="1064" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,7 +279,7 @@
             <mxPoint x="125" y="188" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bfREKkxu8rVSgXWXRHsr-29" connectable="0" parent="bfREKkxu8rVSgXWXRHsr-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="View, Edit Self Information" vertex="1">
+        <mxCell id="bfREKkxu8rVSgXWXRHsr-29" connectable="0" parent="bfREKkxu8rVSgXWXRHsr-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="View self information" vertex="1">
           <mxGeometry relative="1" x="0.1774" y="3" as="geometry">
             <mxPoint x="10" y="-4" as="offset" />
           </mxGeometry>
@@ -341,6 +341,17 @@
         </mxCell>
         <mxCell id="Y_Jj-deYwFSVSk4CWmlq-8" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Gemini API" vertex="1">
           <mxGeometry height="80" width="120" x="386" y="-45" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_Jj-deYwFSVSk4CWmlq-11" edge="1" parent="1" source="bfREKkxu8rVSgXWXRHsr-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.994;exitY=0.38;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-143" y="144" as="sourcePoint" />
+            <mxPoint x="123" y="147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_Jj-deYwFSVSk4CWmlq-12" connectable="0" parent="Y_Jj-deYwFSVSk4CWmlq-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Modify account information" vertex="1">
+          <mxGeometry relative="1" x="-0.4175" y="-2" as="geometry">
+            <mxPoint x="34" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
