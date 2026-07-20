@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" pages="6">
   <diagram id="09eNp_geucE26HXBYv2N" name="Entities">
     <mxGraphModel dx="1741" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,6 +18,92 @@
         </mxCell>
         <mxCell id="yoIeYMb2v7yj3rUop33s-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Gemini API&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Generate workout recommendations&lt;/li&gt;&lt;li&gt;answer fitness questions&lt;/li&gt;&lt;li&gt;personalized workout plans&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="167" width="428" x="18" y="325" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8EH7jBEJIu16lpvRAoxo" name="Use Case Diagram">
+    <mxGraphModel dx="1572" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LvnmfV96RBLGeL3ltui1-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Admin" vertex="1">
+          <mxGeometry height="60" width="30" x="185" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Member" vertex="1">
+          <mxGeometry height="60" width="30" x="664" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Trainer" vertex="1">
+          <mxGeometry height="60" width="30" x="425" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Inventory &amp;amp; Equipment" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage POS" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage User Accounts" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Generate Reports" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Booking&amp;nbsp; &amp;amp; Schedule" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Membership" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Membership" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Attendance" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Schedule" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Booking &amp;amp; Schedule" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Member Workout Plan" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Profile" vertex="1">
+          <mxGeometry height="60" width="120" x="619" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="View Membership" vertex="1">
+          <mxGeometry height="60" width="120" x="619" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="View Schedule" vertex="1">
+          <mxGeometry height="60" width="120" x="619" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="View Check-in/out history" vertex="1">
+          <mxGeometry height="60" width="120" x="619" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Use AI Personal Trainer" vertex="1">
+          <mxGeometry height="60" width="120" x="619" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Request Booking" vertex="1">
+          <mxGeometry height="60" width="120" x="619" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scan QR Code" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scan QR Code" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scan QR Code" vertex="1">
+          <mxGeometry height="60" width="120" x="619" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Walk-in Customers" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manage Profile" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LvnmfV96RBLGeL3ltui1-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="View Member Profile" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
