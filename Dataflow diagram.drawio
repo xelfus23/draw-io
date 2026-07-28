@@ -1425,7 +1425,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S3S33KaBBaeT-2Uw10ii" name="Entity Relationship Diagram">
-    <mxGraphModel dx="943" dy="575" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6550,16 +6550,16 @@
           <mxGeometry height="45" width="112" x="1755" y="1260" as="geometry" />
         </mxCell>
         <mxCell id="vLVw5OGzZLfJ4lnU1sBH-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="trainer_profiles" vertex="1">
-          <mxGeometry height="42" width="117" x="1821" y="1461.28" as="geometry" />
+          <mxGeometry height="42" width="117" x="1976" y="1204" as="geometry" />
         </mxCell>
         <mxCell id="vLVw5OGzZLfJ4lnU1sBH-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="user_sessions" vertex="1">
-          <mxGeometry height="44" width="127" x="1959" y="1429" as="geometry" />
+          <mxGeometry height="44" width="127" x="2212" y="1359" as="geometry" />
         </mxCell>
         <mxCell id="vLVw5OGzZLfJ4lnU1sBH-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="payments" vertex="1">
-          <mxGeometry height="46.72" width="124" x="2004" y="1503.28" as="geometry" />
+          <mxGeometry height="46.72" width="124" x="1702" y="1857" as="geometry" />
         </mxCell>
         <mxCell id="vLVw5OGzZLfJ4lnU1sBH-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="body_metrics" vertex="1">
-          <mxGeometry height="47" width="120" x="1780" y="1516" as="geometry" />
+          <mxGeometry height="47" width="120" x="1747" y="1389" as="geometry" />
         </mxCell>
         <mxCell id="vLVw5OGzZLfJ4lnU1sBH-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="membership_plans" vertex="1">
           <mxGeometry height="44" width="125" x="2030" y="1577" as="geometry" />
@@ -6613,6 +6613,24 @@
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="2166" y="1453" as="sourcePoint" />
             <mxPoint x="2228" y="1727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3xM4IsyUEeijsjh0ygd-1" edge="1" parent="1" source="vLVw5OGzZLfJ4lnU1sBH-33" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" target="vLVw5OGzZLfJ4lnU1sBH-35" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1961" y="1354" as="sourcePoint" />
+            <mxPoint x="1877" y="1293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3xM4IsyUEeijsjh0ygd-2" edge="1" parent="1" source="vLVw5OGzZLfJ4lnU1sBH-33" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" target="vLVw5OGzZLfJ4lnU1sBH-37" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="2323" y="1484" as="sourcePoint" />
+            <mxPoint x="2239" y="1608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K3xM4IsyUEeijsjh0ygd-3" edge="1" parent="1" source="vLVw5OGzZLfJ4lnU1sBH-33" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" target="vLVw5OGzZLfJ4lnU1sBH-39" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="2084" y="1354" as="sourcePoint" />
+            <mxPoint x="2096" y="1461" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
