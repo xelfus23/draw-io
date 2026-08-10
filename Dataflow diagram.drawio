@@ -8123,7 +8123,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U0k9Q3KIz0S1cPMtHgCd" name="Block Diagram">
-    <mxGraphModel dx="1384" dy="863" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8136,7 +8136,7 @@
         <mxCell id="QH99OJXPB1eAZDU0G5ug-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mobile Application (React Native / Expo)" vertex="1">
           <mxGeometry height="31" width="234" x="376.5" y="147" as="geometry" />
         </mxCell>
-        <mxCell id="QH99OJXPB1eAZDU0G5ug-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=-11;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Administrator Modules&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;User Management&lt;/li&gt;&lt;li&gt;POS &amp;amp; Payments&lt;/li&gt;&lt;li&gt;Inventory &amp;amp; Equipment&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;System Reports&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="QH99OJXPB1eAZDU0G5ug-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=-11;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Administrator Modules&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;User Management&lt;/li&gt;&lt;li&gt;POS &amp;amp; Payments&lt;/li&gt;&lt;li&gt;Inventory &amp;amp; Equipment&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;System Reports&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Live System Status&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="134" width="165" x="206" y="214" as="geometry" />
         </mxCell>
         <mxCell id="QH99OJXPB1eAZDU0G5ug-55" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;">
@@ -8205,13 +8205,13 @@
         <mxCell id="QH99OJXPB1eAZDU0G5ug-54" edge="1" parent="1" source="QH99OJXPB1eAZDU0G5ug-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="QH99OJXPB1eAZDU0G5ug-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QH99OJXPB1eAZDU0G5ug-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Backend Server (Node.Js / Express.Js)&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;RESTful API&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;JWT Authentication&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Role-Based Access Control&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;WebSocket&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="105" width="234" x="376.5" y="396" as="geometry" />
+        <mxCell id="QH99OJXPB1eAZDU0G5ug-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="Backend Server&lt;div&gt;Hosted in Render&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;RESTful API&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;JWT Authentication&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Role-Based Access Control&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;WebSocket Server (live status, real-time events)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="234" x="376.5" y="396" as="geometry" />
         </mxCell>
-        <mxCell id="QH99OJXPB1eAZDU0G5ug-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PostgreSQL Database&lt;div&gt;(Neon Cloud)&lt;/div&gt;" vertex="1">
+        <mxCell id="QH99OJXPB1eAZDU0G5ug-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PostgreSQL Database&lt;div&gt;Hosted on Neon&lt;/div&gt;" vertex="1">
           <mxGeometry height="31" width="234" x="206" y="576" as="geometry" />
         </mxCell>
-        <mxCell id="QH99OJXPB1eAZDU0G5ug-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AI Inference Layer&lt;div&gt;(Gemini API)&lt;/div&gt;" vertex="1">
+        <mxCell id="QH99OJXPB1eAZDU0G5ug-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AI Service&lt;div&gt;Google Gemini API&lt;/div&gt;" vertex="1">
           <mxGeometry height="31" width="234" x="542" y="576" as="geometry" />
         </mxCell>
         <mxCell id="QH99OJXPB1eAZDU0G5ug-51" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;">
