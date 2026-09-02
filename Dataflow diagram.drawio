@@ -7410,7 +7410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EeLWlT3Xf6BdWbJRWLxB" name="Conceptual Framework">
-    <mxGraphModel dx="4685" dy="2145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="770" dy="715" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7626,6 +7626,73 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-13" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="365" width="247" x="2510" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-14" parent="GgiozH20-FEWfgKfb00Z-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="60" width="247" as="geometry" />
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-15" parent="GgiozH20-FEWfgKfb00Z-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;div&gt;&lt;b&gt;INDEPENDENT VARIABLE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Proposed System Features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="247" as="geometry">
+            <mxRectangle height="60" width="247" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-16" parent="GgiozH20-FEWfgKfb00Z-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="305" width="247" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-17" parent="GgiozH20-FEWfgKfb00Z-16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;Membership and Subscription Management&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;QR-Based Attendance and Access Control&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Payment and Point-of-Sale management&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Personal Training Booking Management&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Inventory and Equipment Management&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Workout and Exercise Session Management&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;AI-Assisted Fitness Guidance&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="305" width="247" as="geometry">
+            <mxRectangle height="305" width="247" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-18" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="106" width="360" x="2814" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-19" parent="GgiozH20-FEWfgKfb00Z-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="106" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-20" parent="GgiozH20-FEWfgKfb00Z-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;div&gt;&lt;b&gt;DEVELOPED SYSTEM&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Carreon Gym Management System with AI-Powered Personal Trainer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="106" width="360" as="geometry">
+            <mxRectangle height="106" width="360" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-24" edge="1" parent="1" source="GgiozH20-FEWfgKfb00Z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GgiozH20-FEWfgKfb00Z-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2810" y="500" />
+              <mxPoint x="2810" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-25" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="223" width="247" x="3231" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-26" parent="GgiozH20-FEWfgKfb00Z-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="50" width="247" as="geometry" />
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-27" parent="GgiozH20-FEWfgKfb00Z-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="&lt;div&gt;&lt;b&gt;DEPENDENT VARIABLE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;System Quality Based on ISO/IEC 25010&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="247" as="geometry">
+            <mxRectangle height="50" width="247" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-28" parent="GgiozH20-FEWfgKfb00Z-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="173" width="247" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-29" parent="GgiozH20-FEWfgKfb00Z-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;Functional Suitability&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Performance Efficiency&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Usability&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Reliability&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Security&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Maintainability&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="173" width="247" as="geometry">
+            <mxRectangle height="173" width="247" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgiozH20-FEWfgKfb00Z-30" edge="1" parent="1" source="GgiozH20-FEWfgKfb00Z-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="GgiozH20-FEWfgKfb00Z-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3270" y="500" />
+              <mxPoint x="3270" y="500" />
+            </Array>
+            <mxPoint x="3210" y="520" as="sourcePoint" />
+            <mxPoint x="3320" y="513.35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -8343,7 +8410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U0k9Q3KIz0S1cPMtHgCd" name="Block Diagram">
-    <mxGraphModel dx="1924" dy="-99" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1924" dy="-191" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8379,7 +8446,7 @@
         </mxCell>
         <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart LR\n    A[\&quot;INPUT\&quot;] --&gt; B[\&quot;PROCESS\&quot;] --&gt; C[\&quot;OUTPUT\&quot;]\n\n    A --&gt; A1[\&quot;Gym operational requirements\&quot;]\n    A --&gt; A2[\&quot;User requirements\&quot;]\n    A --&gt; A3[\&quot;Membership information\&quot;]\n    A --&gt; A4[\&quot;Attendance data\&quot;]\n    A --&gt; A5[\&quot;Payment and transaction data\&quot;]\n    A --&gt; A6[\&quot;Booking information\&quot;]\n    A --&gt; A7[\&quot;Inventory and equipment data\&quot;]\n    A --&gt; A8[\&quot;Member fitness information\&quot;]\n    A --&gt; A9[\&quot;Workout history\&quot;]\n\n    B --&gt; B1[\&quot;Requirements analysis\&quot;]\n    B --&gt; B2[\&quot;System design and development\&quot;]\n    B --&gt; B3[\&quot;Membership management\&quot;]\n    B --&gt; B4[\&quot;QR attendance recording and validation\&quot;]\n    B --&gt; B5[\&quot;Payment and POS processing\&quot;]\n    B --&gt; B6[\&quot;Personal training booking\&quot;]\n    B --&gt; B7[\&quot;Inventory and equipment management\&quot;]\n    B --&gt; B8[\&quot;Workout management\&quot;]\n    B --&gt; B9[\&quot;AI-assisted fitness guidance\&quot;]\n    B --&gt; B10[\&quot;Report generation\&quot;]\n    B --&gt; B11[\&quot;System testing and evaluation\&quot;]\n\n    C --&gt; C1[\&quot;Centralized gym management\&quot;]\n    C --&gt; C2[\&quot;Digital attendance records\&quot;]\n    C --&gt; C3[\&quot;Membership monitoring\&quot;]\n    C --&gt; C4[\&quot;Payment and transaction records\&quot;]\n    C --&gt; C5[\&quot;Booking records\&quot;]\n    C --&gt; C6[\&quot;Inventory and equipment records\&quot;]\n    C --&gt; C7[\&quot;AI-assisted workout recommendations\&quot;]\n    C --&gt; C8[\&quot;Workout and progress records\&quot;]\n    C --&gt; C9[\&quot;Reports and analytics\&quot;]&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="s-EUHaamh3JgoDHjAarE-41">
           <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
-            <mxGeometry as="geometry" />
+            <mxGeometry height="2186" width="1671" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="INPUT" mermaidId="n:A" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="INPUT" id="s-EUHaamh3JgoDHjAarE-42">
@@ -8442,64 +8509,54 @@
             <mxGeometry height="54" width="173" x="312" y="2044" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Requirements analysis" mermaidId="n:B1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Requirements analysis" id="s-EUHaamh3JgoDHjAarE-54">
+        <UserObject label="Membership Management" mermaidId="n:B1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Requirements analysis" id="s-EUHaamh3JgoDHjAarE-54">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="219" x="839" y="1395" as="geometry" />
+            <mxGeometry height="54" width="243" x="839" y="1395" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="System design and development" mermaidId="n:B2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="System design and development" id="s-EUHaamh3JgoDHjAarE-55">
+        <UserObject label="QR attendance recording and validation" mermaidId="n:B2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="System design and development" id="s-EUHaamh3JgoDHjAarE-55">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="290" x="839" y="1480" as="geometry" />
+            <mxGeometry height="54" width="332" x="839" y="1480" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Membership management" mermaidId="n:B3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Membership management" id="s-EUHaamh3JgoDHjAarE-56">
+        <UserObject label="Payment and POS processing" mermaidId="n:B3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Membership management" id="s-EUHaamh3JgoDHjAarE-56">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="243" x="839" y="1569" as="geometry" />
+            <mxGeometry height="54" width="264" x="839" y="1569" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="QR attendance recording and validation" mermaidId="n:B4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="QR attendance recording and validation" id="s-EUHaamh3JgoDHjAarE-57">
+        <UserObject label="Personal training booking management" mermaidId="n:B4" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="QR attendance recording and validation" id="s-EUHaamh3JgoDHjAarE-57">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="346" x="839" y="1648" as="geometry" />
+            <mxGeometry height="54" width="338" x="839" y="1648" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Payment and POS processing" mermaidId="n:B5" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Payment and POS processing" id="s-EUHaamh3JgoDHjAarE-58">
+        <UserObject label="Inventory and Equipment Management" mermaidId="n:B5" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Payment and POS processing" id="s-EUHaamh3JgoDHjAarE-58">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="264" x="839" y="1730" as="geometry" />
+            <mxGeometry height="54" width="332" x="839" y="1730" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Personal training booking" mermaidId="n:B6" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Personal training booking" id="s-EUHaamh3JgoDHjAarE-59">
+        <UserObject label="Workout Management" mermaidId="n:B6" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Personal training booking" id="s-EUHaamh3JgoDHjAarE-59">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="241" x="839" y="1807" as="geometry" />
+            <mxGeometry height="54" width="217" x="839" y="1807" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Inventory and equipment management" mermaidId="n:B7" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Inventory and equipment management" id="s-EUHaamh3JgoDHjAarE-60">
+        <UserObject label="AI-assisted fitness guidance" mermaidId="n:B7" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Inventory and equipment management" id="s-EUHaamh3JgoDHjAarE-60">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="338" x="839" y="1888" as="geometry" />
+            <mxGeometry height="54" width="257" x="839" y="1888" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Workout management" mermaidId="n:B8" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Workout management" id="s-EUHaamh3JgoDHjAarE-61">
+        <UserObject label="Exercise session generation and performance" mermaidId="n:B8" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Workout management" id="s-EUHaamh3JgoDHjAarE-61">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="217" x="839" y="1966" as="geometry" />
+            <mxGeometry height="54" width="380" x="839" y="1966" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="AI-assisted fitness guidance" mermaidId="n:B9" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="AI-assisted fitness guidance" id="s-EUHaamh3JgoDHjAarE-62">
+        <UserObject label="Report generation" mermaidId="n:B9" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="AI-assisted fitness guidance" id="s-EUHaamh3JgoDHjAarE-62">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
             <mxGeometry height="54" width="257" x="839" y="2044" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Report generation" mermaidId="n:B10" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Report generation" id="s-EUHaamh3JgoDHjAarE-63">
+        <UserObject label="Reports and analytics" mermaidId="n:C1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Centralized gym management" id="s-EUHaamh3JgoDHjAarE-65">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="189" x="839" y="2122" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="System testing and evaluation" mermaidId="n:B11" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="System testing and evaluation" id="s-EUHaamh3JgoDHjAarE-64">
-          <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="275" x="839" y="2200" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Centralized gym management" mermaidId="n:C1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Centralized gym management" id="s-EUHaamh3JgoDHjAarE-65">
-          <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="274" x="1387" y="2044" as="geometry" />
+            <mxGeometry height="54" width="217" x="1387" y="2044" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Digital attendance records" mermaidId="n:C2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Digital attendance records" id="s-EUHaamh3JgoDHjAarE-66">
@@ -8532,14 +8589,14 @@
             <mxGeometry height="54" width="332" x="1388" y="1807" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Workout and progress records" mermaidId="n:C8" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Workout and progress records" id="s-EUHaamh3JgoDHjAarE-72">
+        <UserObject label="Generated exercise sessions" mermaidId="n:C8" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Workout and progress records" id="s-EUHaamh3JgoDHjAarE-72">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
             <mxGeometry height="54" width="273" x="1388" y="1888" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Reports and analytics" mermaidId="n:C9" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Reports and analytics" id="s-EUHaamh3JgoDHjAarE-73">
+        <UserObject label="Workout and progress records" mermaidId="n:C9" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Reports and analytics" id="s-EUHaamh3JgoDHjAarE-73">
           <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="213" x="1388" y="1966" as="geometry" />
+            <mxGeometry height="54" width="273" x="1388" y="1966" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.52;exitY=0;entryX=0;entryY=0.5;" mermaidBaseValue="" id="s-EUHaamh3JgoDHjAarE-74">
@@ -8728,24 +8785,6 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <UserObject label="" mermaidId="e:B-&gt;B10#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.55;exitY=1;entryX=0;entryY=0.5;" mermaidBaseValue="" id="s-EUHaamh3JgoDHjAarE-94">
-          <mxCell edge="1" parent="s-EUHaamh3JgoDHjAarE-41" source="s-EUHaamh3JgoDHjAarE-43" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s-EUHaamh3JgoDHjAarE-63">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points">
-                <mxPoint x="720.88" y="2149" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:B-&gt;B11#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.54;exitY=1;entryX=0;entryY=0.5;" mermaidBaseValue="" id="s-EUHaamh3JgoDHjAarE-95">
-          <mxCell edge="1" parent="s-EUHaamh3JgoDHjAarE-41" source="s-EUHaamh3JgoDHjAarE-43" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s-EUHaamh3JgoDHjAarE-64">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points">
-                <mxPoint x="711.47" y="2227" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
         <UserObject label="" mermaidId="e:C-&gt;C1#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.71;exitY=0;entryX=0;entryY=0.5;" mermaidBaseValue="" id="s-EUHaamh3JgoDHjAarE-96">
           <mxCell edge="1" parent="s-EUHaamh3JgoDHjAarE-41" source="s-EUHaamh3JgoDHjAarE-44" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;edgeStyle=orthogonalEdgeStyle;" target="s-EUHaamh3JgoDHjAarE-65">
             <mxGeometry relative="1" as="geometry">
@@ -8824,6 +8863,38 @@
               <Array as="points">
                 <mxPoint x="1293" y="1993" />
               </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Available Gym Equipment" mermaidId="n:A9" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Workout history" id="4IEYCBh4CWE99scslrUh-1">
+          <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="230" x="312" y="2122" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:A-&gt;A9#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.59;exitY=1;entryX=0;entryY=0.5;" mermaidBaseValue="" id="4IEYCBh4CWE99scslrUh-2">
+          <mxCell edge="1" parent="s-EUHaamh3JgoDHjAarE-41" source="s-EUHaamh3JgoDHjAarE-42" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4IEYCBh4CWE99scslrUh-1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="228.33" y="2149" />
+              </Array>
+              <mxPoint x="247" y="1311" as="sourcePoint" />
+              <mxPoint x="322" y="2081" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Centralized gym management" mermaidId="n:C1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Centralized gym management" id="4IEYCBh4CWE99scslrUh-3">
+          <mxCell parent="s-EUHaamh3JgoDHjAarE-41" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="273" x="1388" y="2122" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:C-&gt;C1#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.71;exitY=0;entryX=0;entryY=0.5;" mermaidBaseValue="" id="4IEYCBh4CWE99scslrUh-4">
+          <mxCell edge="1" parent="s-EUHaamh3JgoDHjAarE-41" source="s-EUHaamh3JgoDHjAarE-44" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);rounded=0;edgeStyle=orthogonalEdgeStyle;" target="4IEYCBh4CWE99scslrUh-3">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1280" y="2153" />
+              </Array>
+              <mxPoint x="1297" y="1311" as="sourcePoint" />
+              <mxPoint x="1397" y="2081" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </UserObject>
